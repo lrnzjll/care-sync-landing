@@ -13,7 +13,19 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
+      },
       colors: {
+        // CareSync Brand Colors
+        "deep-navy": "hsl(var(--deep-navy))",
+        "teal": "hsl(var(--teal))",
+        "soft-sky": "hsl(var(--soft-sky))",
+        "warm-sand": "hsl(var(--warm-sand))",
+        "slate": "hsl(var(--slate))",
+        
+        // Semantic Colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
