@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import SocialProof from "@/components/SocialProof";
 import ValueCards from "@/components/ValueCards";
 import HowItWorks from "@/components/HowItWorks";
+import SmartphoneTracking from "@/components/SmartphoneTracking";
 import FeatureGrid from "@/components/FeatureGrid";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
@@ -15,6 +16,7 @@ const Index = () => {
       <SocialProof />
       <ValueCards />
       <HowItWorks />
+      <SmartphoneTracking />
       <FeatureGrid />
       <Pricing />
       <Testimonials />

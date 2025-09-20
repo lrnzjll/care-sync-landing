@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Smartphone, Clock, Heart } from "lucide-react";
-import heroImage from "@/assets/caresync-hero.jpg";
+import heroImage from "@/assets/caresync-prototype.png";
 
 const Hero = () => {
   const trustBadges = [
@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="relative z-10">
               <img
                 src={heroImage}
-                alt="CareSync smart care band on senior's wrist showing health monitoring"
+                alt="CareSync prototype device - white and gray smart care band with emergency button"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
             </div>
