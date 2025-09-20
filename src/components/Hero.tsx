@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Smartphone, Clock, Heart } from "lucide-react";
-import heroImage from "@/assets/caresync-prototype.png";
+import heroImage from "@/assets/caresync-prototype-v2.png";
 
 const Hero = () => {
   const trustBadges = [

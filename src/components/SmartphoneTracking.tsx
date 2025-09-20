@@ -1,4 +1,4 @@
-import smartphoneImage from "@/assets/smartphone-tracking.png";
+import smartphoneImage from "@/assets/location-tracking.png";
 
 const SmartphoneTracking = () => {
   return (
@@ -6,11 +6,11 @@ const SmartphoneTracking = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-deep-navy mb-4">
-            Real-time Health Monitoring
+            Real-time Location Tracking
           </h2>
           <p className="text-lg text-slate max-w-2xl mx-auto">
-            Stay connected with comprehensive health tracking and instant alerts. 
-            Monitor vitals, track activities, and receive emergency notifications on your smartphone.
+            Know where your loved ones are at all times. GPS tracking with geofencing alerts 
+            and location history for complete peace of mind.
           </p>
         </div>
         
@@ -18,7 +18,7 @@ const SmartphoneTracking = () => {
           <div className="relative max-w-sm">
             <img
               src={smartphoneImage}
-              alt="CareSync smartphone app showing health tracking dashboard with heart rate, medication reminders, and emergency features"
+              alt="CareSync smartphone app showing GPS location tracking interface with map and location markers"
               className="w-full h-auto rounded-3xl shadow-2xl"
             />
             {/* Decorative glow */}
